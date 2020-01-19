@@ -1,4 +1,4 @@
-<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/gatsby-material-ui-business-starter/styles.796299d3da7eccda5ed8.css">body{color:rgba(0,0,0,.87);font-size:.875rem;font-family:Roboto,Helvetica,Arial,sans-serif;font-weight:400;line-height:1.5;letter-spacing:.01071em}body #logo{background-color:#fff}body #logo:hover{background-color:#eee}body #logo #logoIcon{background-color:red;color:#fff}body a{text-decoration:none}body button a{color:#fff}body footer{text-align:center}</style><meta name="generator" content="Gatsby 2.18.25"/><style type="text/css" id="jss-server-side">html {
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/gatsby-material-ui-business-starter/styles.796299d3da7eccda5ed8.css">body{color:rgba(0,0,0,.87);font-size:.875rem;font-family:Roboto,Helvetica,Arial,sans-serif;font-weight:400;line-height:1.5;letter-spacing:.01071em}body #logo{background-color:#fff}body #logo:hover{background-color:#eee}body #logo #logoIcon{background-color:red;color:#fff}body a{text-decoration:none}body button a{color:#fff}body footer{text-align:center}</style><meta name="generator" content="Gatsby 2.18.25"/><style type="text/css" id="jss-server-side">html {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -101,6 +101,102 @@ body::backdrop {
   .jss15 {
     display: none;
   }
+}
+.MuiButtonBase-root {
+  color: inherit;
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  display: inline-flex;
+  outline: 0;
+  padding: 0;
+  position: relative;
+  align-items: center;
+  user-select: none;
+  border-radius: 0;
+  vertical-align: middle;
+  -moz-appearance: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.MuiButtonBase-root::-moz-focus-inner {
+  border-style: none;
+}
+.MuiButtonBase-root.Mui-disabled {
+  cursor: default;
+  pointer-events: none;
+}
+.MuiIconButton-root {
+  flex: 0 0 auto;
+  color: rgba(0, 0, 0, 0.54);
+  padding: 12px;
+  overflow: visible;
+  font-size: 1.5rem;
+  text-align: center;
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 50%;
+}
+.MuiIconButton-root:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+.MuiIconButton-root.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26);
+  background-color: transparent;
+}
+@media (hover: none) {
+  .MuiIconButton-root:hover {
+    background-color: transparent;
+  }
+}
+.MuiIconButton-edgeStart {
+  margin-left: -12px;
+}
+.MuiIconButton-sizeSmall.MuiIconButton-edgeStart {
+  margin-left: -3px;
+}
+.MuiIconButton-edgeEnd {
+  margin-right: -12px;
+}
+.MuiIconButton-sizeSmall.MuiIconButton-edgeEnd {
+  margin-right: -3px;
+}
+.MuiIconButton-colorInherit {
+  color: inherit;
+}
+.MuiIconButton-colorPrimary {
+  color: #9c27b0;
+}
+.MuiIconButton-colorPrimary:hover {
+  background-color: rgba(156, 39, 176, 0.08);
+}
+@media (hover: none) {
+  .MuiIconButton-colorPrimary:hover {
+    background-color: transparent;
+  }
+}
+.MuiIconButton-colorSecondary {
+  color: #4caf50;
+}
+.MuiIconButton-colorSecondary:hover {
+  background-color: rgba(76, 175, 80, 0.08);
+}
+@media (hover: none) {
+  .MuiIconButton-colorSecondary:hover {
+    background-color: transparent;
+  }
+}
+.MuiIconButton-sizeSmall {
+  padding: 3px;
+  font-size: 1.125rem;
+}
+.MuiIconButton-label {
+  width: 100%;
+  display: flex;
+  align-items: inherit;
+  justify-content: inherit;
 }
 .MuiSvgIcon-root {
   fill: currentColor;
@@ -1206,13 +1302,92 @@ body::backdrop {
   width: 1px;
   height: 100%;
 }
-.jss239 {
+.jss267 {
   margin-top: 48px;
   margin-bottom: 24px;
 }
-.jss240 {
+.jss268 {
   white-space: nowrap;
   margin-bottom: 24px;
+}
+.MuiGridList-root {
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+  list-style: none;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.MuiGridListTile-root {
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.MuiGridListTile-tile {
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+.MuiGridListTile-imgFullHeight {
+  left: 50%;
+  height: 100%;
+  position: relative;
+  transform: translateX(-50%);
+}
+.MuiGridListTile-imgFullWidth {
+  top: 50%;
+  width: 100%;
+  position: relative;
+  transform: translateY(-50%);
+}
+.MuiGridListTileBar-root {
+  left: 0;
+  right: 0;
+  height: 48px;
+  display: flex;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  align-items: center;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+.MuiGridListTileBar-titlePositionBottom {
+  bottom: 0;
+}
+.MuiGridListTileBar-titlePositionTop {
+  top: 0;
+}
+.MuiGridListTileBar-rootSubtitle {
+  height: 68px;
+}
+.MuiGridListTileBar-titleWrap {
+  color: #fff;
+  overflow: hidden;
+  flex-grow: 1;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.MuiGridListTileBar-titleWrapActionPosLeft {
+  margin-left: 0;
+}
+.MuiGridListTileBar-titleWrapActionPosRight {
+  margin-right: 0;
+}
+.MuiGridListTileBar-title {
+  overflow: hidden;
+  font-size: 1rem;
+  line-height: 24px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.MuiGridListTileBar-subtitle {
+  overflow: hidden;
+  font-size: 0.75rem;
+  line-height: 1;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.MuiGridListTileBar-actionIconActionPosLeft {
+  order: -1;
 }
 .jss16 {
   margin-top: 94px;
@@ -1223,4 +1398,4 @@ body::backdrop {
 }
 .jss18 {
   text-align: center;
-}</style><title data-react-helmet="true"></title><link as="script" rel="preload" href="/gatsby-material-ui-business-starter/webpack-runtime-7223e15f15043c985430.js"/><link as="script" rel="preload" href="/gatsby-material-ui-business-starter/app-3020838e7b6d7312f3a2.js"/><link as="script" rel="preload" href="/gatsby-material-ui-business-starter/styles-cda0a3931b662aaed360.js"/><link as="script" rel="preload" href="/gatsby-material-ui-business-starter/commons-b7c140720d000c671d2e.js"/><link as="script" rel="preload" href="/gatsby-material-ui-business-starter/component---src-pages-404-js-7d976c0fe004d85b14c2.js"/><link as="fetch" rel="preload" href="/gatsby-material-ui-business-starter/page-data\404\page-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group" id="gatsby-focus-wrapper"><div class=""><div><header class="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary mui-fixed MuiPaper-elevation4" id="appBar"><div class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"><div class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center MuiGrid-justify-xs-space-between"><div class="MuiGrid-root MuiGrid-item"><div class="MuiChip-root MuiChip-outlined" id="logo"><div class="MuiAvatar-root MuiAvatar-circle MuiChip-avatar MuiAvatar-colorDefault" id="logoIcon"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path d="M8,16.61V15.37L14,11.91V7.23L9,10.12L4,7.23V13L3,13.58L2,13V5L3.07,4.38L9,7.81L12.93,5.54L14.93,4.38L16,5V13.06L10.92,16L14.97,18.33L20,15.43V11L21,10.42L22,11V16.58L14.97,20.64L8,16.61M22,9.75L21,10.33L20,9.75V8.58L21,8L22,8.58V9.75Z"></path></svg></div><span class="MuiChip-label"><a href="/gatsby-material-ui-business-starter/">GATSBY MATERIAL UI BUSINESS STARTER</a></span></div></div><div class="MuiGrid-root MuiGrid-item"></div></div><div class="MuiGrid-root MuiGrid-item"></div></div></header></div><div class="MuiGrid-root jss16 MuiGrid-container MuiGrid-justify-xs-center"><div class="MuiGrid-root jss17 MuiGrid-item"><h2 class="MuiTypography-root jss18 MuiTypography-h2 MuiTypography-gutterBottom">Not Found</h2><p>Hey! You just hit a page that doesn&#x27;t exist...</p><hr class="MuiDivider-root jss239"/><footer class="jss240" id="footer"><span><span class="MuiTypography-root MuiTypography-caption">©<!-- -->2020<!-- --> <!-- -->Gatsby Material UI Business Starter<!-- --> <!-- --> <!-- -->hi@foxandgeese.com<!-- --> – <!-- -->503-555-1111<br/>·<br/>Starter created by<!-- --> <a href="https://foxandgeese.com">Fox and Geese</a></span></span></footer></div></div></div></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/404/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-3020838e7b6d7312f3a2.js"],"component---src-templates-general-js":["/component---src-templates-general-js-eb21fda37e08e80398d0.js"],"component---src-templates-team-js":["/component---src-templates-team-js-73fc8d1cb67afc2e20a8.js"],"component---src-pages-404-js":["/component---src-pages-404-js-7d976c0fe004d85b14c2.js"],"component---src-pages-index-js":["/component---src-pages-index-js-b93dddae5df37e2918a4.js"],"component---src-pages-products-index-js":["/component---src-pages-products-index-js-8b60b16670ca89f1f974.js"],"component---src-pages-team-index-js":["/component---src-pages-team-index-js-0f66dfd483a32669941c.js"]};/*]]>*/</script><script src="/gatsby-material-ui-business-starter/component---src-pages-404-js-7d976c0fe004d85b14c2.js" async=""></script><script src="/gatsby-material-ui-business-starter/commons-b7c140720d000c671d2e.js" async=""></script><script src="/gatsby-material-ui-business-starter/styles-cda0a3931b662aaed360.js" async=""></script><script src="/gatsby-material-ui-business-starter/app-3020838e7b6d7312f3a2.js" async=""></script><script src="/gatsby-material-ui-business-starter/webpack-runtime-7223e15f15043c985430.js" async=""></script></body></html>
+}</style><title data-react-helmet="true">Meet the Team - Gatsby Material UI Business Starter</title><link as="script" rel="preload" href="/gatsby-material-ui-business-starter/webpack-runtime-7223e15f15043c985430.js"/><link as="script" rel="preload" href="/gatsby-material-ui-business-starter/app-3020838e7b6d7312f3a2.js"/><link as="script" rel="preload" href="/gatsby-material-ui-business-starter/styles-cda0a3931b662aaed360.js"/><link as="script" rel="preload" href="/gatsby-material-ui-business-starter/commons-b7c140720d000c671d2e.js"/><link as="script" rel="preload" href="/gatsby-material-ui-business-starter/component---src-pages-team-index-js-0f66dfd483a32669941c.js"/><link as="fetch" rel="preload" href="/gatsby-material-ui-business-starter/page-data\team\page-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group" id="gatsby-focus-wrapper"><div class=""><div><header class="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary mui-fixed MuiPaper-elevation4" id="appBar"><div class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"><div class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center MuiGrid-justify-xs-space-between"><div class="MuiGrid-root MuiGrid-item"><div class="MuiChip-root MuiChip-outlined" id="logo"><div class="MuiAvatar-root MuiAvatar-circle MuiChip-avatar MuiAvatar-colorDefault" id="logoIcon"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path d="M8,16.61V15.37L14,11.91V7.23L9,10.12L4,7.23V13L3,13.58L2,13V5L3.07,4.38L9,7.81L12.93,5.54L14.93,4.38L16,5V13.06L10.92,16L14.97,18.33L20,15.43V11L21,10.42L22,11V16.58L14.97,20.64L8,16.61M22,9.75L21,10.33L20,9.75V8.58L21,8L22,8.58V9.75Z"></path></svg></div><span class="MuiChip-label"><a href="/gatsby-material-ui-business-starter/">GATSBY MATERIAL UI BUSINESS STARTER</a></span></div></div><div class="MuiGrid-root MuiGrid-item"></div></div><div class="MuiGrid-root MuiGrid-item"></div></div></header></div><div class="MuiGrid-root jss16 MuiGrid-container MuiGrid-justify-xs-center"><div class="MuiGrid-root jss17 MuiGrid-item"><h2 class="MuiTypography-root jss18 MuiTypography-h2 MuiTypography-gutterBottom">Meet the Team</h2><p class="MuiTypography-root MuiTypography-body1 MuiTypography-paragraph">We are here to help! Let us know what we can do. And we&#x27;re of course always interested to find new recruits to join our amazing team. We are here to help! Let us know what we can do. And we&#x27;re of course always interested to find new recruits to join our amazing team. We are here to help! Let us know what we can do. And we&#x27;re of course always interested to find new recruits to join our amazing team.</p><ul class="MuiGridList-root" style="margin:-2px"><a style="width:33.333333333333336%;height:504px;padding:2px" href="/gatsby-material-ui-business-starter/team/dolly-burperlous"><li class="MuiGridListTile-root"><div class="MuiGridListTile-tile"><img src="/gatsby-material-ui-business-starter/gatsby-material-ui-business-starter/static/deleece-cook-1187586-unsplash-4eb366ce86aa2cf6bc36f161f2740c3c.jpg" alt="Dolly Burperlous"/><div class="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"><div class="MuiGridListTileBar-titleWrap MuiGridListTileBar-titleWrapActionPosRight"><div class="MuiGridListTileBar-title">Dolly Burperlous</div><div class="MuiGridListTileBar-subtitle">Chief Creepy Doll</div></div><div class="MuiGridListTileBar-actionIcon"><button class="MuiButtonBase-root MuiIconButton-root teamIcon" tabindex="0" type="button" style="color:rgba(255, 255, 255, 0.54)"><span class="MuiIconButton-label"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path d="M2.81,14.12L5.64,11.29L8.17,10.79C11.39,6.41 17.55,4.22 19.78,4.22C19.78,6.45 17.59,12.61 13.21,15.83L12.71,18.36L9.88,21.19L9.17,17.66C7.76,17.66 7.76,17.66 7.05,16.95C6.34,16.24 6.34,16.24 6.34,14.83L2.81,14.12M5.64,16.95L7.05,18.36L4.39,21.03H2.97V19.61L5.64,16.95M4.22,15.54L5.46,15.71L3,18.16V16.74L4.22,15.54M8.29,18.54L8.46,19.78L7.26,21H5.84L8.29,18.54M13,9.5A1.5,1.5 0 0,0 11.5,11A1.5,1.5 0 0,0 13,12.5A1.5,1.5 0 0,0 14.5,11A1.5,1.5 0 0,0 13,9.5Z"></path></svg></span></button></div></div></div></li></a><a style="width:33.333333333333336%;height:504px;padding:2px" href="/gatsby-material-ui-business-starter/team/george-geppetto"><li class="MuiGridListTile-root"><div class="MuiGridListTile-tile"><img src="/gatsby-material-ui-business-starter/gatsby-material-ui-business-starter/static/robert-zunikoff-592158-unsplash-9c26d53fb3e645438617dfc17d84724d.jpg" alt="George Geppetto"/><div class="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"><div class="MuiGridListTileBar-titleWrap MuiGridListTileBar-titleWrapActionPosRight"><div class="MuiGridListTileBar-title">George Geppetto</div><div class="MuiGridListTileBar-subtitle">Chief Executive Puppet</div></div><div class="MuiGridListTileBar-actionIcon"><button class="MuiButtonBase-root MuiIconButton-root teamIcon" tabindex="0" type="button" style="color:rgba(255, 255, 255, 0.54)"><span class="MuiIconButton-label"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path d="M2.81,14.12L5.64,11.29L8.17,10.79C11.39,6.41 17.55,4.22 19.78,4.22C19.78,6.45 17.59,12.61 13.21,15.83L12.71,18.36L9.88,21.19L9.17,17.66C7.76,17.66 7.76,17.66 7.05,16.95C6.34,16.24 6.34,16.24 6.34,14.83L2.81,14.12M5.64,16.95L7.05,18.36L4.39,21.03H2.97V19.61L5.64,16.95M4.22,15.54L5.46,15.71L3,18.16V16.74L4.22,15.54M8.29,18.54L8.46,19.78L7.26,21H5.84L8.29,18.54M13,9.5A1.5,1.5 0 0,0 11.5,11A1.5,1.5 0 0,0 13,12.5A1.5,1.5 0 0,0 14.5,11A1.5,1.5 0 0,0 13,9.5Z"></path></svg></span></button></div></div></div></li></a><a style="width:33.333333333333336%;height:504px;padding:2px" href="/gatsby-material-ui-business-starter/team/teddy-von-tumpletumple"><li class="MuiGridListTile-root"><div class="MuiGridListTile-tile"><img src="/gatsby-material-ui-business-starter/gatsby-material-ui-business-starter/static/sandy-millar-773383-unsplash-bb644d417ebb5bbd916774e585c488ac.jpg" alt="Teddy von TumpleTumple"/><div class="MuiGridListTileBar-root MuiGridListTileBar-titlePositionBottom MuiGridListTileBar-rootSubtitle"><div class="MuiGridListTileBar-titleWrap MuiGridListTileBar-titleWrapActionPosRight"><div class="MuiGridListTileBar-title">Teddy von TumpleTumple</div><div class="MuiGridListTileBar-subtitle">Chief Teddy Bear</div></div><div class="MuiGridListTileBar-actionIcon"><button class="MuiButtonBase-root MuiIconButton-root teamIcon" tabindex="0" type="button" style="color:rgba(255, 255, 255, 0.54)"><span class="MuiIconButton-label"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path d="M2.81,14.12L5.64,11.29L8.17,10.79C11.39,6.41 17.55,4.22 19.78,4.22C19.78,6.45 17.59,12.61 13.21,15.83L12.71,18.36L9.88,21.19L9.17,17.66C7.76,17.66 7.76,17.66 7.05,16.95C6.34,16.24 6.34,16.24 6.34,14.83L2.81,14.12M5.64,16.95L7.05,18.36L4.39,21.03H2.97V19.61L5.64,16.95M4.22,15.54L5.46,15.71L3,18.16V16.74L4.22,15.54M8.29,18.54L8.46,19.78L7.26,21H5.84L8.29,18.54M13,9.5A1.5,1.5 0 0,0 11.5,11A1.5,1.5 0 0,0 13,12.5A1.5,1.5 0 0,0 14.5,11A1.5,1.5 0 0,0 13,9.5Z"></path></svg></span></button></div></div></div></li></a></ul><hr class="MuiDivider-root jss267"/><footer class="jss268" id="footer"><span><span class="MuiTypography-root MuiTypography-caption">©<!-- -->2020<!-- --> <!-- -->Gatsby Material UI Business Starter<!-- --> <!-- --> <!-- -->hi@foxandgeese.com<!-- --> – <!-- -->503-555-1111<br/>·<br/>Starter created by<!-- --> <a href="https://foxandgeese.com">Fox and Geese</a></span></span></footer></div></div></div></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/team/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-3020838e7b6d7312f3a2.js"],"component---src-templates-general-js":["/component---src-templates-general-js-eb21fda37e08e80398d0.js"],"component---src-templates-team-js":["/component---src-templates-team-js-73fc8d1cb67afc2e20a8.js"],"component---src-pages-404-js":["/component---src-pages-404-js-7d976c0fe004d85b14c2.js"],"component---src-pages-index-js":["/component---src-pages-index-js-b93dddae5df37e2918a4.js"],"component---src-pages-products-index-js":["/component---src-pages-products-index-js-8b60b16670ca89f1f974.js"],"component---src-pages-team-index-js":["/component---src-pages-team-index-js-0f66dfd483a32669941c.js"]};/*]]>*/</script><script src="/gatsby-material-ui-business-starter/component---src-pages-team-index-js-0f66dfd483a32669941c.js" async=""></script><script src="/gatsby-material-ui-business-starter/commons-b7c140720d000c671d2e.js" async=""></script><script src="/gatsby-material-ui-business-starter/styles-cda0a3931b662aaed360.js" async=""></script><script src="/gatsby-material-ui-business-starter/app-3020838e7b6d7312f3a2.js" async=""></script><script src="/gatsby-material-ui-business-starter/webpack-runtime-7223e15f15043c985430.js" async=""></script></body></html>
